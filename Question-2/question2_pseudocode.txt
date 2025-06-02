@@ -5,11 +5,11 @@ Output
 The list of nearby drivers.
 
 Process
-1.Create a list of drivers with their id and location
+1. Create a list of drivers with their id and location
 2. For each driver in the driver list, do steps 3–5.
 3. From the driver's location longitude subtract the passenger's location longitude.
 4. From the driver's location latitude subtract the passenger's location latitude.
 5. Using the Pythagorean theorem calculate the distance between the passenger's location and the driver's location.
-6.If the distance is less than or equal to the maximum distance, go to step 7.
+6. If the distance is less than or equal to the maximum distance, go to step 7.
 7. Create a list of nearby drivers.
 
