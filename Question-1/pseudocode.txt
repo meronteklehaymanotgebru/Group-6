@@ -1,11 +1,24 @@
 Input
-List of tracks (object), list of pick-ups (object) , garbage amount(Int), list of routes (object)
+List of trucks (each with id, capacity and availability), list of pick-ups (each with id, capacity and availability) , garbage amount, list of routes (consisting id and distance (from the recycling company to the garbage collection point))
 
-Process
-1. create a function which takes in the list of trucks, list of pick-ups, garbage amount and list of routes and loop through the routes to find the minimum route which will be taken by a truck.
-2.Loop through the list of trucks and if the capacity of the truck is greater than or equal to the garbage amount return the truck id and the route id
-3.Else if the capacity of the tuck is less than the garbage capacity and the availability of the pick is true return the pick-up id and the rout id
-4.Else return no vehicle available.
 
 Output
-A string
+A string specifying the vehicle allocated and the route it should take.
+
+
+process
+1. Create a list with trucks id, their respective capacity and availability.
+2. Create a list with pick-ups id and their respective capacity.
+3. Create a list with route id and their respective distances.
+4. Compare two consequtive distances in the route list starting from the first two.
+5. If the distance of one route is less than the distance of the second route, place the first distance at the front of the list.
+6  Follow step number 5 until the last distance in the list.
+7. The first distance in the route list is the minimum distance.
+8. From the list of trucks if a truck is available and the capacity is greater than the garbage amount.
+9. That specific truck will take the minimum route.
+10. From the list of trucks if none of the trucks capacity is greater than the grabage amount,
+11. compare the capacity of the pick-ups with the garbage amount.
+12. If a pick-up is available and the capacity is greater than the garbage amount.
+13. That specific pick-up will take the minimum route.
+14. If no truck and no pick-up is available and their capacities are less than the garbage amount,
+15. No vehicle will pick up the garbage.
