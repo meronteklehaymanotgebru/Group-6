@@ -7,7 +7,7 @@ Ride-Hailing Application: Connects users with nearby drivers.
 Hospital Resource Management System: Tracks and allocates medical resources efficiently.
 
 The codebase is composed primarily of Kotlin, Python, and JavaScript.
-## Live coding questions
+## Live Coding Questions
 # Question 1
 Recycling Collection Routing: Implement a routing system for recycling collection trucks that optimizes routes to minimize fuel consumption and maximize load efficiency. This system should handle variable recycling volumes, special pickups for over sized items, and ensure compliance with local recycling regulations and schedules.
 
