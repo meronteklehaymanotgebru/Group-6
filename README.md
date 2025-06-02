@@ -1,4 +1,4 @@
-# GROUP-2-CODING
+# GROUP-6-CODING
 # Overview
 This repository contains collaborative coding projects by Group 6. The focus areas include real-world application scenarios such as:
 
