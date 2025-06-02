@@ -1,1 +1,2 @@
-Question 6:-Recycling Collection Routing: Implement a routing system for recycling collection trucks that optimizes routes to minimize fuel consumption and maximize load efficiency. This system should handle variable recycling volumes, special pickups for over sized items, and ensure compliance with local recycling regulations and schedules.
+# Question 1
+# Recycling Collection Routing: Implement a routing system for recycling collection trucks that optimizes routes to minimize fuel consumption and maximize load efficiency. This system should handle variable recycling volumes, special pickups for over sized items, and ensure compliance with local recycling regulations and schedules.
