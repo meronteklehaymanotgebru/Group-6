@@ -20,6 +20,7 @@ You are building a ride hailing app. Given the user’s current location, what a
 To view or run these projects:
 
 Download or clone this repository to your computer.
+
 Open the folders for each project to see the source code.
 
 ## Contributing
