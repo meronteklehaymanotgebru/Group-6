@@ -20,9 +20,6 @@ process
 11. compare the capacity of the pick-ups with the garbage amount.
 12. If a pick-up is available and the capacity is greater than the garbage amount.
 13. That specific pick-up will take the minimum route.
-14. If no truck and no pick-up is available and their capacities are less than the garbage amount,
-<<<<<<< HEAD
+14. If no truck and no pick-up is available and their capacities are less than the garbage amount.
 15. No vehicle will pick up the garbage.
-=======
-15. No vehicle will pick up the garbage.
->>>>>>> aa353e113c82ce46f132b630932139f49ad00af6
+
